@@ -19,6 +19,15 @@ I want to learn JavaScript!
 - Adobe Photoshop
 - Windows OS
 
+## Code Example:
+
+```
+function multiply(a, b){
+  console.log(a * b);
+  return a * b;
+}
+```
+
 ## Courses:
 - CS50
 - SoloLearn
