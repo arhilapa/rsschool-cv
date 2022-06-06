@@ -1,24 +1,23 @@
 body {
 	padding: 0;
 	margin: 0;
-height: 100%;
+	height: 100%;
 }
 
 header {
 	background: #545454;
 	text-align: center;
-	
+
 }
 
 header img {
 	position: relative;
-		bottom: -120px;
-	}
+	bottom: -120px;
+}
 
 .round {
 	border-radius: 100px;
-		object-fit: cover
-		
+	object-fit: cover
 }
 
 h1 {
@@ -30,10 +29,9 @@ h1 {
 }
 
 h2 {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 1;
-		color: rgba(0, 0, 0, 0.5)
-		
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 1;
+	color: rgba(0, 0, 0, 0.5)
 }
 
 .center {
@@ -57,7 +55,8 @@ code {
 	padding: 50px;
 }
 
-aside, main {
+aside,
+main {
 	width: 50%;
 	float: left;
 }
@@ -65,9 +64,7 @@ aside, main {
 .content {
 	display: flex;
 	justify-content: space-between;
-	padding: ;
 	box-sizing: border-box;
-	
-	
-}
 
+
+}
