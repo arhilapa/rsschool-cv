@@ -1,4 +1,4 @@
-## [rsschool-cv](https://arhilapa.github.io/rsschool-cv/cv)
+## [rsschool-cv](https://arhilapa.github.io/rsschool-cv/)
 
 # Valentin Migal
 ## Contacts
