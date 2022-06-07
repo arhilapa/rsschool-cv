@@ -6,3 +6,21 @@
 - Discord: Arhilapa#4372
 - Email: arhilapa1@gmail.com
 - Github: [Arhilapa](https://github.com/arhilapa)
+
+## Skills:
+- HTML
+- CSS
+- JavaScript (Basic)
+- Git (Github)
+- VS Code, WebStorm
+- Adobe Photoshop
+- Windows OS
+
+## Code Example:
+
+  ```
+  function multiply(a, b){
+    console.log(a * b);
+    return a * b;
+  }
+  ```
