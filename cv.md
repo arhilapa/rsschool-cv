@@ -24,3 +24,13 @@
     return a * b;
   }
   ```
+
+## Courses:
+  - CS50
+  - SoloLearn
+  - RSSchool (Right now)
+
+## Language:
+  - English - Elementary
+  - Russian - Native
+  - Ukrainian
