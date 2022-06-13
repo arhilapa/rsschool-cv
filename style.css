@@ -12,57 +12,90 @@ header {
 
 header img {
 	position: relative;
-	bottom: -120px;
+	bottom: 0;
 }
 
 .round {
-	border-radius: 100px;
-	object-fit: cover
+	border-radius: 50%;	
+	object-fit: cover;
+	transform: translateY(50%);
 }
 
 h1 {
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 120px;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 6px;
-	font-weight: 1;
+	font-weight: 400;
 }
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 1;
+	font-weight: 400;	
 	color: rgba(0, 0, 0, 0.5)
 }
 
 .center {
 	text-align: center;
-	font-weight: 1;
+	font-weight: 400;
 	color: rgba(0, 0, 0, 0.5)
 }
 
 div {
 	margin: 0 auto;
-	width: 1200px;
+	width: 100%;
+	max-width: 1000px;
 	overflow: hidden;
 }
 
 li {
 	font-weight: bold;
 }
-
+li:not(:last-child) {
+	margin-bottom: 20px
+}
 code {
-	background: gray;
-	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
-aside,
 main {
-	width: 50%;
-	float: left;
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
 }
+
+
 
 .content {
 	display: flex;
 	justify-content: space-between;
 	box-sizing: border-box;
+}
+
+#right {
+	
+	padding: 10px 0 0 40px;
+}
+
+#left {
+	
+	padding: 10px 0 0 40px;
+}
+
+#left h2 {
+	margin: 0 0 10px 0;
+}
+
+#right h2 {
+	margin: 0 0 10px 0;
+}
+
+footer{
+		justify-content: flex-end;
+		text-align: center;
+		padding: 50px;
+		background-color: #545454;
+		margin-top: 100px;
+}
+
+ul {
+	padding-left: 20px;
 }
