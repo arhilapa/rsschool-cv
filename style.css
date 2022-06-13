@@ -44,14 +44,16 @@ h2 {
 div {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
 	overflow: hidden;
 }
 
 li {
 	font-weight: bold;
 }
-
+li:not(:last-child) {
+	margin-bottom: 20px
+}
 code {
 	background-color: rgba(0, 0, 0, 0.1);
 }
@@ -79,11 +81,11 @@ main {
 }
 
 #left h2 {
-	margin: 0 0 0 0;
+	margin: 0 0 10px 0;
 }
 
 #right h2 {
-	margin: 0 0 20px 0;
+	margin: 0 0 10px 0;
 }
 
 footer{
