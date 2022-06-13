@@ -12,12 +12,13 @@ header {
 
 header img {
 	position: relative;
-	bottom: -120px;
+	bottom: 0;
 }
 
 .round {
-	border-radius: 100px;
-	object-fit: cover
+	border-radius: 50%;	
+	object-fit: cover;
+	transform: translateY(50%);
 }
 
 h1 {
@@ -51,18 +52,36 @@ li {
 }
 
 code {
-	background: gray;
-	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: ;
 }
 
-aside,
 main {
-	width: 50%;
-	float: left;
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+	padding-right: 230px;
 }
+
+
 
 .content {
 	display: flex;
 	justify-content: space-between;
 	box-sizing: border-box;
+}
+
+#right {
+	justify-content: flex-end;
+	margin: 50px;
+}
+
+#left {
+	justify-content: flex-start;
+}
+
+footer{
+		justify-content: flex-end;
+		text-align: center;
+		padding: 50px;
+		background-color: #545454;
+		
 }
