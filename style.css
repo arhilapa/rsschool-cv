@@ -13,6 +13,8 @@ header {
 header img {
 	position: relative;
 	bottom: 0;
+	width: 200px;
+	height: 200px;
 }
 
 .round {
@@ -66,7 +68,6 @@ main {
 
 .content {
 	display: flex;
-	justify-content: space-between;
 	box-sizing: border-box;
 }
 
@@ -89,11 +90,16 @@ main {
 }
 
 footer{
-		justify-content: flex-end;
 		text-align: center;
-		padding: 50px;
 		background-color: #545454;
 		margin-top: 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+}
+
+footer img {
+	margin: 0 100px 0 100px;
 }
 
 ul {
